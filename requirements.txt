@@ -1,0 +1,8 @@
+# Core: everything needed to run the gateway on fakes, the bench harness, and
+# the test suite. No GPU, no Docker, no model downloads.
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.6
+numpy>=1.26
+httpx>=0.27
+pytest>=8.0

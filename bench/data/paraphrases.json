@@ -1,0 +1,1134 @@
+{
+  "method": "template",
+  "source": "bench/data/benchmark75.csv",
+  "n_source_queries": 75,
+  "n_variants": 225,
+  "warning": "Thresholds calibrated on generated paraphrases are provisional; they are not validated against real query logs.  METHOD=template: lexical rewrites for harness testing only, not for reported numbers.",
+  "variants": [
+    {
+      "query_id": "CP-1",
+      "kind": "near_duplicate",
+      "text": "In what way do uninformed and informed search strategies differ in problem-solving?"
+    },
+    {
+      "query_id": "CP-1",
+      "kind": "paraphrase",
+      "text": "Could you explain how do uninformed and informed search strategies differ in problem-solving?"
+    },
+    {
+      "query_id": "CP-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do uninformed and informed search strategies differ in problem-solving?"
+    },
+    {
+      "query_id": "CP-2",
+      "kind": "near_duplicate",
+      "text": "What exactly is heuristic evaluation?"
+    },
+    {
+      "query_id": "CP-2",
+      "kind": "paraphrase",
+      "text": "Could you explain what is heuristic evaluation?"
+    },
+    {
+      "query_id": "CP-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is heuristic evaluation?"
+    },
+    {
+      "query_id": "CP-3",
+      "kind": "near_duplicate",
+      "text": "What exactly are the fundamental differences between propositional logic and first-order logic in AI reasoning?"
+    },
+    {
+      "query_id": "CP-3",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the fundamental differences between propositional logic and first-order logic in AI reasoning?"
+    },
+    {
+      "query_id": "CP-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the fundamental differences between propositional logic and first-order logic in AI reasoning?"
+    },
+    {
+      "query_id": "CP-4",
+      "kind": "near_duplicate",
+      "text": "How does moisture leaving the meat affect the cooking process and the texture of the final dish, specifically?"
+    },
+    {
+      "query_id": "CP-4",
+      "kind": "paraphrase",
+      "text": "Could you explain how does moisture leaving the meat affect the cooking process and the texture of the final dish?"
+    },
+    {
+      "query_id": "CP-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does moisture leaving the meat affect the cooking process and the texture of the final dish?"
+    },
+    {
+      "query_id": "CP-5",
+      "kind": "near_duplicate",
+      "text": "What exactly are the key differences between cooking on a charcoal grill versus a gas grill?"
+    },
+    {
+      "query_id": "CP-5",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the key differences between cooking on a charcoal grill versus a gas grill?"
+    },
+    {
+      "query_id": "CP-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the key differences between cooking on a charcoal grill versus a gas grill?"
+    },
+    {
+      "query_id": "CP-6",
+      "kind": "near_duplicate",
+      "text": "What role does vinegar play in post-cooking marinades, specifically?"
+    },
+    {
+      "query_id": "CP-6",
+      "kind": "paraphrase",
+      "text": "Could you explain what role does vinegar play in post-cooking marinades?"
+    },
+    {
+      "query_id": "CP-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role does vinegar play in post-cooking marinades?"
+    },
+    {
+      "query_id": "CP-7",
+      "kind": "near_duplicate",
+      "text": "What exactly are the fundamental differences between deterministic and nondeterministic finite automata?"
+    },
+    {
+      "query_id": "CP-7",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the fundamental differences between deterministic and nondeterministic finite automata?"
+    },
+    {
+      "query_id": "CP-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the fundamental differences between deterministic and nondeterministic finite automata?"
+    },
+    {
+      "query_id": "CP-8",
+      "kind": "near_duplicate",
+      "text": "In what way do polynomial-time reductions help classify NP-complete problems?"
+    },
+    {
+      "query_id": "CP-8",
+      "kind": "paraphrase",
+      "text": "Could you explain how do polynomial-time reductions help classify NP-complete problems?"
+    },
+    {
+      "query_id": "CP-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do polynomial-time reductions help classify NP-complete problems?"
+    },
+    {
+      "query_id": "CP-9",
+      "kind": "near_duplicate",
+      "text": "What exactly is preemptive scheduling and how does it differ from non-preemptive scheduling?"
+    },
+    {
+      "query_id": "CP-9",
+      "kind": "paraphrase",
+      "text": "Could you explain what is preemptive scheduling and how does it differ from non-preemptive scheduling?"
+    },
+    {
+      "query_id": "CP-9",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is preemptive scheduling and how does it differ from non-preemptive scheduling?"
+    },
+    {
+      "query_id": "CP-10",
+      "kind": "near_duplicate",
+      "text": "What role do consistency models play in distributed file systems, specifically?"
+    },
+    {
+      "query_id": "CP-10",
+      "kind": "paraphrase",
+      "text": "Could you explain what role do consistency models play in distributed file systems?"
+    },
+    {
+      "query_id": "CP-10",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role do consistency models play in distributed file systems?"
+    },
+    {
+      "query_id": "CP-11",
+      "kind": "near_duplicate",
+      "text": "What exactly are the fundamental abstractions in computer system design?"
+    },
+    {
+      "query_id": "CP-11",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the fundamental abstractions in computer system design?"
+    },
+    {
+      "query_id": "CP-11",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the fundamental abstractions in computer system design?"
+    },
+    {
+      "query_id": "CP-12",
+      "kind": "near_duplicate",
+      "text": "what role does indirect naming play in managing multiple contexts, specifically?"
+    },
+    {
+      "query_id": "CP-12",
+      "kind": "paraphrase",
+      "text": "Could you explain what role does indirect naming play in managing multiple contexts?"
+    },
+    {
+      "query_id": "CP-12",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role does indirect naming play in managing multiple contexts?"
+    },
+    {
+      "query_id": "CP-13",
+      "kind": "near_duplicate",
+      "text": "how does eventual consistency differ from strong consistency in terms of system behavior and guarantees, specifically?"
+    },
+    {
+      "query_id": "CP-13",
+      "kind": "paraphrase",
+      "text": "Could you explain how does eventual consistency differ from strong consistency in terms of system behavior and guarantees?"
+    },
+    {
+      "query_id": "CP-13",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does eventual consistency differ from strong consistency in terms of system behavior and guarantees?"
+    },
+    {
+      "query_id": "MM-1",
+      "kind": "near_duplicate",
+      "text": "In what way do state transition graphs work?"
+    },
+    {
+      "query_id": "MM-1",
+      "kind": "paraphrase",
+      "text": "Could you explain how do state transition graphs work?"
+    },
+    {
+      "query_id": "MM-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do state transition graphs work?"
+    },
+    {
+      "query_id": "MM-2",
+      "kind": "near_duplicate",
+      "text": "In what way do Bayesian networks represent dependencies between discrete and continuous variables, and how is cost distribution affected by subsidies?"
+    },
+    {
+      "query_id": "MM-2",
+      "kind": "paraphrase",
+      "text": "Could you explain how do Bayesian networks represent dependencies between discrete and continuous variables, and how is cost distribution affected by subsidies?"
+    },
+    {
+      "query_id": "MM-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do Bayesian networks represent dependencies between discrete and continuous variables, and how is cost distribution affected by subsidies?"
+    },
+    {
+      "query_id": "MM-3",
+      "kind": "near_duplicate",
+      "text": "How does binary search on an index improve access time in sequential file systems using direct-access operations, specifically?"
+    },
+    {
+      "query_id": "MM-3",
+      "kind": "paraphrase",
+      "text": "Could you explain how does binary search on an index improve access time in sequential file systems using direct-access operations?"
+    },
+    {
+      "query_id": "MM-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does binary search on an index improve access time in sequential file systems using direct-access operations?"
+    },
+    {
+      "query_id": "MM-4",
+      "kind": "near_duplicate",
+      "text": "What exactly are the step-by-step procedures for preparing the perfect ravioli?"
+    },
+    {
+      "query_id": "MM-4",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the step-by-step procedures for preparing the perfect ravioli?"
+    },
+    {
+      "query_id": "MM-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the step-by-step procedures for preparing the perfect ravioli?"
+    },
+    {
+      "query_id": "MM-5",
+      "kind": "near_duplicate",
+      "text": "How does a PDA use stack operations to recognize context-free languages, specifically?"
+    },
+    {
+      "query_id": "MM-5",
+      "kind": "paraphrase",
+      "text": "Could you explain how does a PDA use stack operations to recognize context-free languages?"
+    },
+    {
+      "query_id": "MM-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does a PDA use stack operations to recognize context-free languages?"
+    },
+    {
+      "query_id": "MM-6",
+      "kind": "near_duplicate",
+      "text": "How does the reduction process construct a machine that distinguishes whether another machine accepts a given input, specifically?"
+    },
+    {
+      "query_id": "MM-6",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the reduction process construct a machine that distinguishes whether another machine accepts a given input?"
+    },
+    {
+      "query_id": "MM-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the reduction process construct a machine that distinguishes whether another machine accepts a given input?"
+    },
+    {
+      "query_id": "MM-7",
+      "kind": "near_duplicate",
+      "text": "What components are involved when I use cloud services like virtual machines over the internet, specifically?"
+    },
+    {
+      "query_id": "MM-7",
+      "kind": "paraphrase",
+      "text": "Could you explain what components are involved when I use cloud services like virtual machines over the internet?"
+    },
+    {
+      "query_id": "MM-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of what components are involved when I use cloud services like virtual machines over the internet?"
+    },
+    {
+      "query_id": "MM-8",
+      "kind": "near_duplicate",
+      "text": "In what way do magnetic disks work, and what factors influence their read/write performance?"
+    },
+    {
+      "query_id": "MM-8",
+      "kind": "paraphrase",
+      "text": "Could you explain how do magnetic disks work, and what factors influence their read/write performance?"
+    },
+    {
+      "query_id": "MM-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do magnetic disks work, and what factors influence their read/write performance?"
+    },
+    {
+      "query_id": "MM-9",
+      "kind": "near_duplicate",
+      "text": "How does a shared bus architecture manage communication between processors, memory, and peripheral devices, specifically?"
+    },
+    {
+      "query_id": "MM-9",
+      "kind": "paraphrase",
+      "text": "Could you explain how does a shared bus architecture manage communication between processors, memory, and peripheral devices?"
+    },
+    {
+      "query_id": "MM-9",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does a shared bus architecture manage communication between processors, memory, and peripheral devices?"
+    },
+    {
+      "query_id": "MM-10",
+      "kind": "near_duplicate",
+      "text": "What exactly is the DFA minimization algorithm?"
+    },
+    {
+      "query_id": "MM-10",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the DFA minimization algorithm?"
+    },
+    {
+      "query_id": "MM-10",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the DFA minimization algorithm?"
+    },
+    {
+      "query_id": "MP-1",
+      "kind": "near_duplicate",
+      "text": "What exactly are the key challenges in reinforcement learning?"
+    },
+    {
+      "query_id": "MP-1",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the key challenges in reinforcement learning?"
+    },
+    {
+      "query_id": "MP-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the key challenges in reinforcement learning?"
+    },
+    {
+      "query_id": "MP-2",
+      "kind": "near_duplicate",
+      "text": "What exactly are multi-agent systems and how do they coordinate decision-making in competitive and cooperative environments?"
+    },
+    {
+      "query_id": "MP-2",
+      "kind": "paraphrase",
+      "text": "Could you explain what are multi-agent systems and how do they coordinate decision-making in competitive and cooperative environments?"
+    },
+    {
+      "query_id": "MP-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are multi-agent systems and how do they coordinate decision-making in competitive and cooperative environments?"
+    },
+    {
+      "query_id": "MP-3",
+      "kind": "near_duplicate",
+      "text": "How does the choice of k in k-nearest neighbors (k-NN) impact model performance, particularly in terms of overfitting and generalization, specifically?"
+    },
+    {
+      "query_id": "MP-3",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the choice of k in k-nearest neighbors (k-NN) impact model performance, particularly in terms of overfitting and generalization?"
+    },
+    {
+      "query_id": "MP-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the choice of k in k-nearest neighbors (k-NN) impact model performance, particularly in terms of overfitting and generalization?"
+    },
+    {
+      "query_id": "MP-4",
+      "kind": "near_duplicate",
+      "text": "How does the combination of yogurt, cream, and tomato create a balance of flavors and texture, specifically?"
+    },
+    {
+      "query_id": "MP-4",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the combination of yogurt, cream, and tomato create a balance of flavors and texture?"
+    },
+    {
+      "query_id": "MP-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the combination of yogurt, cream, and tomato create a balance of flavors and texture?"
+    },
+    {
+      "query_id": "MP-5",
+      "kind": "near_duplicate",
+      "text": "How does vinegar and sugar change the texture of cooked rice, specifically?"
+    },
+    {
+      "query_id": "MP-5",
+      "kind": "paraphrase",
+      "text": "Could you explain how does vinegar and sugar change the texture of cooked rice?"
+    },
+    {
+      "query_id": "MP-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does vinegar and sugar change the texture of cooked rice?"
+    },
+    {
+      "query_id": "MP-6",
+      "kind": "near_duplicate",
+      "text": "How is saffron used in Mediterranean dishes, specifically?"
+    },
+    {
+      "query_id": "MP-6",
+      "kind": "paraphrase",
+      "text": "Could you explain how is saffron used in Mediterranean dishes?"
+    },
+    {
+      "query_id": "MP-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of how is saffron used in Mediterranean dishes?"
+    },
+    {
+      "query_id": "MP-7",
+      "kind": "near_duplicate",
+      "text": "How does the Pumping Lemma help prove that a language is not regular, specifically?"
+    },
+    {
+      "query_id": "MP-7",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the Pumping Lemma help prove that a language is not regular?"
+    },
+    {
+      "query_id": "MP-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the Pumping Lemma help prove that a language is not regular?"
+    },
+    {
+      "query_id": "MP-8",
+      "kind": "near_duplicate",
+      "text": "How does the relationship between P and NP impact computational complexity theory, specifically?"
+    },
+    {
+      "query_id": "MP-8",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the relationship between P and NP impact computational complexity theory?"
+    },
+    {
+      "query_id": "MP-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the relationship between P and NP impact computational complexity theory?"
+    },
+    {
+      "query_id": "MP-9",
+      "kind": "near_duplicate",
+      "text": "How does the reduction of Ld to Lu demonstrate that Lu is not recursive, specifically?"
+    },
+    {
+      "query_id": "MP-9",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the reduction of Ld to Lu demonstrate that Lu is not recursive?"
+    },
+    {
+      "query_id": "MP-9",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the reduction of Ld to Lu demonstrate that Lu is not recursive?"
+    },
+    {
+      "query_id": "MP-10",
+      "kind": "near_duplicate",
+      "text": "How is the operating system perceived differently by users compared to how it functions internally for the system, specifically?"
+    },
+    {
+      "query_id": "MP-10",
+      "kind": "paraphrase",
+      "text": "Could you explain how is the operating system perceived differently by users compared to how it functions internally for the system?"
+    },
+    {
+      "query_id": "MP-10",
+      "kind": "loose",
+      "text": "What are the practical limitations of how is the operating system perceived differently by users compared to how it functions internally for the system?"
+    },
+    {
+      "query_id": "MP-11",
+      "kind": "near_duplicate",
+      "text": "What exactly is the primary requirement for secondary storage in computer systems, and why is it needed?"
+    },
+    {
+      "query_id": "MP-11",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the primary requirement for secondary storage in computer systems, and why is it needed?"
+    },
+    {
+      "query_id": "MP-11",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the primary requirement for secondary storage in computer systems, and why is it needed?"
+    },
+    {
+      "query_id": "MP-12",
+      "kind": "near_duplicate",
+      "text": "What role do layers play in system architecture, specifically?"
+    },
+    {
+      "query_id": "MP-12",
+      "kind": "paraphrase",
+      "text": "Could you explain what role do layers play in system architecture?"
+    },
+    {
+      "query_id": "MP-12",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role do layers play in system architecture?"
+    },
+    {
+      "query_id": "MP-13",
+      "kind": "near_duplicate",
+      "text": "What exactly are the key design trade-offs in distributed systems?"
+    },
+    {
+      "query_id": "MP-13",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the key design trade-offs in distributed systems?"
+    },
+    {
+      "query_id": "MP-13",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the key design trade-offs in distributed systems?"
+    },
+    {
+      "query_id": "MP-14",
+      "kind": "near_duplicate",
+      "text": "tell me about bellman-ford algorithm and give an example, specifically?"
+    },
+    {
+      "query_id": "MP-14",
+      "kind": "paraphrase",
+      "text": "Could you explain tell me about bellman-ford algorithm and give an example?"
+    },
+    {
+      "query_id": "MP-14",
+      "kind": "loose",
+      "text": "What are the practical limitations of tell me about bellman-ford algorithm and give an example?"
+    },
+    {
+      "query_id": "NU-1",
+      "kind": "near_duplicate",
+      "text": "What exactly is the formula for estimating the probability of a word using a Markov n-gram model?"
+    },
+    {
+      "query_id": "NU-1",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the formula for estimating the probability of a word using a Markov n-gram model?"
+    },
+    {
+      "query_id": "NU-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the formula for estimating the probability of a word using a Markov n-gram model?"
+    },
+    {
+      "query_id": "NU-2",
+      "kind": "near_duplicate",
+      "text": "What exactly is the cost difference between the path found by the weighted A search and the path found by standard A in terms of percentage?"
+    },
+    {
+      "query_id": "NU-2",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the cost difference between the path found by the weighted A search and the path found by standard A in terms of percentage?"
+    },
+    {
+      "query_id": "NU-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the cost difference between the path found by the weighted A search and the path found by standard A in terms of percentage?"
+    },
+    {
+      "query_id": "NU-3",
+      "kind": "near_duplicate",
+      "text": "How many transition rules are required to simulate a given Turing machine using a Modified Post Correspondence Problem (MPCP) instance, specifically?"
+    },
+    {
+      "query_id": "NU-3",
+      "kind": "paraphrase",
+      "text": "Could you explain how many transition rules are required to simulate a given Turing machine using a Modified Post Correspondence Problem (MPCP) instance?"
+    },
+    {
+      "query_id": "NU-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of how many transition rules are required to simulate a given Turing machine using a Modified Post Correspondence Problem (MPCP) instance?"
+    },
+    {
+      "query_id": "NU-4",
+      "kind": "near_duplicate",
+      "text": "How many production rules are introduced when converting a group of m left-recursive rules into Greibach Normal Form (GNF) using the transformation described, specifically?"
+    },
+    {
+      "query_id": "NU-4",
+      "kind": "paraphrase",
+      "text": "Could you explain how many production rules are introduced when converting a group of m left-recursive rules into Greibach Normal Form (GNF) using the transformation described?"
+    },
+    {
+      "query_id": "NU-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of how many production rules are introduced when converting a group of m left-recursive rules into Greibach Normal Form (GNF) using the transformation described?"
+    },
+    {
+      "query_id": "NU-5",
+      "kind": "near_duplicate",
+      "text": "How is the predicted CPU burst time calculated after a series of actual bursts using exponential averaging, specifically?"
+    },
+    {
+      "query_id": "NU-5",
+      "kind": "paraphrase",
+      "text": "Could you explain how is the predicted CPU burst time calculated after a series of actual bursts using exponential averaging?"
+    },
+    {
+      "query_id": "NU-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of how is the predicted CPU burst time calculated after a series of actual bursts using exponential averaging?"
+    },
+    {
+      "query_id": "NU-6",
+      "kind": "near_duplicate",
+      "text": "How does the speedup vary with the number of processing cores for different values, specifically?"
+    },
+    {
+      "query_id": "NU-6",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the speedup vary with the number of processing cores for different values?"
+    },
+    {
+      "query_id": "NU-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the speedup vary with the number of processing cores for different values?"
+    },
+    {
+      "query_id": "NU-7",
+      "kind": "near_duplicate",
+      "text": "How many lock acquisitions and releases occur in each thread during one full execution of its loop, specifically?"
+    },
+    {
+      "query_id": "NU-7",
+      "kind": "paraphrase",
+      "text": "Could you explain how many lock acquisitions and releases occur in each thread during one full execution of its loop?"
+    },
+    {
+      "query_id": "NU-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of how many lock acquisitions and releases occur in each thread during one full execution of its loop?"
+    },
+    {
+      "query_id": "NU-8",
+      "kind": "near_duplicate",
+      "text": "How many threads are needed to fully utilize a processor given a specific instruction count and round-trip time, specifically?"
+    },
+    {
+      "query_id": "NU-8",
+      "kind": "paraphrase",
+      "text": "Could you explain how many threads are needed to fully utilize a processor given a specific instruction count and round-trip time?"
+    },
+    {
+      "query_id": "NU-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of how many threads are needed to fully utilize a processor given a specific instruction count and round-trip time?"
+    },
+    {
+      "query_id": "TB-1",
+      "kind": "near_duplicate",
+      "text": "What exactly are the performance measure, environment, actuators, and sensors of a medical diagnosis system agent type?"
+    },
+    {
+      "query_id": "TB-1",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the performance measure, environment, actuators, and sensors of a medical diagnosis system agent type?"
+    },
+    {
+      "query_id": "TB-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the performance measure, environment, actuators, and sensors of a medical diagnosis system agent type?"
+    },
+    {
+      "query_id": "TB-2",
+      "kind": "near_duplicate",
+      "text": "What exactly are the key properties used to characterize different task environments for intelligent agents?"
+    },
+    {
+      "query_id": "TB-2",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the key properties used to characterize different task environments for intelligent agents?"
+    },
+    {
+      "query_id": "TB-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the key properties used to characterize different task environments for intelligent agents?"
+    },
+    {
+      "query_id": "TB-3",
+      "kind": "near_duplicate",
+      "text": "What exactly is the next state and head direction when the Turing machine is in state q1 and reads a 0?"
+    },
+    {
+      "query_id": "TB-3",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the next state and head direction when the Turing machine is in state q1 and reads a 0?"
+    },
+    {
+      "query_id": "TB-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the next state and head direction when the Turing machine is in state q1 and reads a 0?"
+    },
+    {
+      "query_id": "TB-4",
+      "kind": "near_duplicate",
+      "text": "In what way do the transitions guide the machine to reach an accepting state on a given input?"
+    },
+    {
+      "query_id": "TB-4",
+      "kind": "paraphrase",
+      "text": "Could you explain how do the transitions guide the machine to reach an accepting state on a given input?"
+    },
+    {
+      "query_id": "TB-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do the transitions guide the machine to reach an accepting state on a given input?"
+    },
+    {
+      "query_id": "TB-5",
+      "kind": "near_duplicate",
+      "text": "What exactly are the I/O port address ranges assigned to different devices in a typical PC configuration?"
+    },
+    {
+      "query_id": "TB-5",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the I/O port address ranges assigned to different devices in a typical PC configuration?"
+    },
+    {
+      "query_id": "TB-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the I/O port address ranges assigned to different devices in a typical PC configuration?"
+    },
+    {
+      "query_id": "TB-6",
+      "kind": "near_duplicate",
+      "text": "What exactly is the function of the resident bit (r) in multilevel memory management?"
+    },
+    {
+      "query_id": "TB-6",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the function of the resident bit (r) in multilevel memory management?"
+    },
+    {
+      "query_id": "TB-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the function of the resident bit (r) in multilevel memory management?"
+    },
+    {
+      "query_id": "TB-7",
+      "kind": "near_duplicate",
+      "text": "What exactly are the categories of abstractions and their corresponding procedures defined in the minimal operating system interface?"
+    },
+    {
+      "query_id": "TB-7",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the categories of abstractions and their corresponding procedures defined in the minimal operating system interface?"
+    },
+    {
+      "query_id": "TB-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the categories of abstractions and their corresponding procedures defined in the minimal operating system interface?"
+    },
+    {
+      "query_id": "TE-1",
+      "kind": "near_duplicate",
+      "text": "How does a model-based reflex agent maintain and utilize an internal state to make decisions in a dynamic environment, specifically?"
+    },
+    {
+      "query_id": "TE-1",
+      "kind": "paraphrase",
+      "text": "Could you explain how does a model-based reflex agent maintain and utilize an internal state to make decisions in a dynamic environment?"
+    },
+    {
+      "query_id": "TE-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does a model-based reflex agent maintain and utilize an internal state to make decisions in a dynamic environment?"
+    },
+    {
+      "query_id": "TE-2",
+      "kind": "near_duplicate",
+      "text": "In what way do standard logical equivalences simplify propositional theorem proving, and why are they essential in AI reasoning?"
+    },
+    {
+      "query_id": "TE-2",
+      "kind": "paraphrase",
+      "text": "Could you explain how do standard logical equivalences simplify propositional theorem proving, and why are they essential in AI reasoning?"
+    },
+    {
+      "query_id": "TE-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do standard logical equivalences simplify propositional theorem proving, and why are they essential in AI reasoning?"
+    },
+    {
+      "query_id": "TE-3",
+      "kind": "near_duplicate",
+      "text": "In what way do the optimal policies and state utilities in passive reinforcement learning reflect the underlying transition dynamics and reward structure?"
+    },
+    {
+      "query_id": "TE-3",
+      "kind": "paraphrase",
+      "text": "Could you explain how do the optimal policies and state utilities in passive reinforcement learning reflect the underlying transition dynamics and reward structure?"
+    },
+    {
+      "query_id": "TE-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do the optimal policies and state utilities in passive reinforcement learning reflect the underlying transition dynamics and reward structure?"
+    },
+    {
+      "query_id": "TE-4",
+      "kind": "near_duplicate",
+      "text": "What exactly is Picada, and how does it enhance the texture and flavor of dishes?"
+    },
+    {
+      "query_id": "TE-4",
+      "kind": "paraphrase",
+      "text": "Could you explain what is Picada, and how does it enhance the texture and flavor of dishes?"
+    },
+    {
+      "query_id": "TE-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is Picada, and how does it enhance the texture and flavor of dishes?"
+    },
+    {
+      "query_id": "TE-5",
+      "kind": "near_duplicate",
+      "text": "What exactly is the significance of the Turing machine model in defining computability?"
+    },
+    {
+      "query_id": "TE-5",
+      "kind": "paraphrase",
+      "text": "Could you explain what is the significance of the Turing machine model in defining computability?"
+    },
+    {
+      "query_id": "TE-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of what is the significance of the Turing machine model in defining computability?"
+    },
+    {
+      "query_id": "TE-6",
+      "kind": "near_duplicate",
+      "text": "How does the product automaton help compute the intersection of two languages, specifically?"
+    },
+    {
+      "query_id": "TE-6",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the product automaton help compute the intersection of two languages?"
+    },
+    {
+      "query_id": "TE-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the product automaton help compute the intersection of two languages?"
+    },
+    {
+      "query_id": "TE-7",
+      "kind": "near_duplicate",
+      "text": "What role does paging play in the operating system's memory management, specifically?"
+    },
+    {
+      "query_id": "TE-7",
+      "kind": "paraphrase",
+      "text": "Could you explain what role does paging play in the operating system's memory management?"
+    },
+    {
+      "query_id": "TE-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role does paging play in the operating system's memory management?"
+    },
+    {
+      "query_id": "TE-8",
+      "kind": "near_duplicate",
+      "text": "what role does user authentication play in preventing unauthorized access, specifically?"
+    },
+    {
+      "query_id": "TE-8",
+      "kind": "paraphrase",
+      "text": "Could you explain what role does user authentication play in preventing unauthorized access?"
+    },
+    {
+      "query_id": "TE-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of what role does user authentication play in preventing unauthorized access?"
+    },
+    {
+      "query_id": "TE-9",
+      "kind": "near_duplicate",
+      "text": "What exactly are the fundamental mechanisms used to build reliable systems from unreliable components?"
+    },
+    {
+      "query_id": "TE-9",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the fundamental mechanisms used to build reliable systems from unreliable components?"
+    },
+    {
+      "query_id": "TE-9",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the fundamental mechanisms used to build reliable systems from unreliable components?"
+    },
+    {
+      "query_id": "TE-10",
+      "kind": "near_duplicate",
+      "text": "In what way do digital systems maintain reliability despite analog noise?"
+    },
+    {
+      "query_id": "TE-10",
+      "kind": "paraphrase",
+      "text": "Could you explain how do digital systems maintain reliability despite analog noise?"
+    },
+    {
+      "query_id": "TE-10",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do digital systems maintain reliability despite analog noise?"
+    },
+    {
+      "query_id": "TE-11",
+      "kind": "near_duplicate",
+      "text": "What conditions lead to a deadlock, specifically?"
+    },
+    {
+      "query_id": "TE-11",
+      "kind": "paraphrase",
+      "text": "Could you explain what conditions lead to a deadlock?"
+    },
+    {
+      "query_id": "TE-11",
+      "kind": "loose",
+      "text": "What are the practical limitations of what conditions lead to a deadlock?"
+    },
+    {
+      "query_id": "TE-12",
+      "kind": "near_duplicate",
+      "text": "Where does a C program store memory allocated at runtime, specifically?"
+    },
+    {
+      "query_id": "TE-12",
+      "kind": "paraphrase",
+      "text": "Could you explain where does a C program store memory allocated at runtime?"
+    },
+    {
+      "query_id": "TE-12",
+      "kind": "loose",
+      "text": "What are the practical limitations of where does a C program store memory allocated at runtime?"
+    },
+    {
+      "query_id": "TE-13",
+      "kind": "near_duplicate",
+      "text": "Where are embedded computers commonly found in real-time embedded systems, specifically?"
+    },
+    {
+      "query_id": "TE-13",
+      "kind": "paraphrase",
+      "text": "Could you explain where are embedded computers commonly found in real-time embedded systems?"
+    },
+    {
+      "query_id": "TE-13",
+      "kind": "loose",
+      "text": "What are the practical limitations of where are embedded computers commonly found in real-time embedded systems?"
+    },
+    {
+      "query_id": "TE-14",
+      "kind": "near_duplicate",
+      "text": "What exactly are the basic file operations that an operating system can perform?"
+    },
+    {
+      "query_id": "TE-14",
+      "kind": "paraphrase",
+      "text": "Could you explain what are the basic file operations that an operating system can perform?"
+    },
+    {
+      "query_id": "TE-14",
+      "kind": "loose",
+      "text": "What are the practical limitations of what are the basic file operations that an operating system can perform?"
+    },
+    {
+      "query_id": "VS-1",
+      "kind": "near_duplicate",
+      "text": "Which figure compares Decision Tree and Decision List learning curves based on training set size, specifically?"
+    },
+    {
+      "query_id": "VS-1",
+      "kind": "paraphrase",
+      "text": "Could you explain which figure compares Decision Tree and Decision List learning curves based on training set size?"
+    },
+    {
+      "query_id": "VS-1",
+      "kind": "loose",
+      "text": "What are the practical limitations of which figure compares Decision Tree and Decision List learning curves based on training set size?"
+    },
+    {
+      "query_id": "VS-2",
+      "kind": "near_duplicate",
+      "text": "What action sequence cleans both rooms in the two-cell vacuum world state-space graph, specifically?"
+    },
+    {
+      "query_id": "VS-2",
+      "kind": "paraphrase",
+      "text": "Could you explain what action sequence cleans both rooms in the two-cell vacuum world state-space graph?"
+    },
+    {
+      "query_id": "VS-2",
+      "kind": "loose",
+      "text": "What are the practical limitations of what action sequence cleans both rooms in the two-cell vacuum world state-space graph?"
+    },
+    {
+      "query_id": "VS-3",
+      "kind": "near_duplicate",
+      "text": "When is thickness and smoothness of dough assessed, specifically?"
+    },
+    {
+      "query_id": "VS-3",
+      "kind": "paraphrase",
+      "text": "Could you explain when is thickness and smoothness of dough assessed?"
+    },
+    {
+      "query_id": "VS-3",
+      "kind": "loose",
+      "text": "What are the practical limitations of when is thickness and smoothness of dough assessed?"
+    },
+    {
+      "query_id": "VS-4",
+      "kind": "near_duplicate",
+      "text": "In what way do parallel transitions work in a product automaton when multiple inputs are received?"
+    },
+    {
+      "query_id": "VS-4",
+      "kind": "paraphrase",
+      "text": "Could you explain how do parallel transitions work in a product automaton when multiple inputs are received?"
+    },
+    {
+      "query_id": "VS-4",
+      "kind": "loose",
+      "text": "What are the practical limitations of how do parallel transitions work in a product automaton when multiple inputs are received?"
+    },
+    {
+      "query_id": "VS-5",
+      "kind": "near_duplicate",
+      "text": "How does the transition diagram of a Turing Machine help in recognizing strings of the form 0ⁿ1ⁿ, specifically?"
+    },
+    {
+      "query_id": "VS-5",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the transition diagram of a Turing Machine help in recognizing strings of the form 0ⁿ1ⁿ?"
+    },
+    {
+      "query_id": "VS-5",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the transition diagram of a Turing Machine help in recognizing strings of the form 0ⁿ1ⁿ?"
+    },
+    {
+      "query_id": "VS-6",
+      "kind": "near_duplicate",
+      "text": "How does the system bring a new page into memory if the frame is already occupied, specifically?"
+    },
+    {
+      "query_id": "VS-6",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the system bring a new page into memory if the frame is already occupied?"
+    },
+    {
+      "query_id": "VS-6",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the system bring a new page into memory if the frame is already occupied?"
+    },
+    {
+      "query_id": "VS-7",
+      "kind": "near_duplicate",
+      "text": "How does the memory hierarchy pyramid illustrate the trade-offs between speed, size, and cost in multilevel memory systems, specifically?"
+    },
+    {
+      "query_id": "VS-7",
+      "kind": "paraphrase",
+      "text": "Could you explain how does the memory hierarchy pyramid illustrate the trade-offs between speed, size, and cost in multilevel memory systems?"
+    },
+    {
+      "query_id": "VS-7",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does the memory hierarchy pyramid illustrate the trade-offs between speed, size, and cost in multilevel memory systems?"
+    },
+    {
+      "query_id": "VS-8",
+      "kind": "near_duplicate",
+      "text": "How does a DNS resolver resolve a domain name to an IP address using hierarchical name servers, starting from the root, specifically?"
+    },
+    {
+      "query_id": "VS-8",
+      "kind": "paraphrase",
+      "text": "Could you explain how does a DNS resolver resolve a domain name to an IP address using hierarchical name servers, starting from the root?"
+    },
+    {
+      "query_id": "VS-8",
+      "kind": "loose",
+      "text": "What are the practical limitations of how does a DNS resolver resolve a domain name to an IP address using hierarchical name servers, starting from the root?"
+    },
+    {
+      "query_id": "VS-9",
+      "kind": "near_duplicate",
+      "text": "Show a figure of process synchronization and its different states, specifically?"
+    },
+    {
+      "query_id": "VS-9",
+      "kind": "paraphrase",
+      "text": "Could you explain show a figure of process synchronization and its different states?"
+    },
+    {
+      "query_id": "VS-9",
+      "kind": "loose",
+      "text": "What are the practical limitations of show a figure of process synchronization and its different states?"
+    }
+  ]
+}

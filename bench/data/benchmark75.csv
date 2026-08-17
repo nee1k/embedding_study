@@ -1,0 +1,544 @@
+Query ID,Query,query type,Primary Expected Source for Answer (Textbook Name),Ground Truth: [] means all pages in range,Cosine Distance top 5,Dot product top 5,Euclidean distance top 5,Manhattan distance top 5,Notes on manual construction of ground truth
+CP-1,How do uninformed and informed search strategies differ in problem-solving,conceptual,"Artificial Intelligence a Modern Approach (""aima"")","(
+[89, 91],  
+[97, 99], 
+[105, 109] 
+)","t5 = (aima-(7,97,89,90,118))","t5 = (aima-(7,97,89,90,118)","t5 = (aima-(104,97,89,118,76))","t5 = (aima-(97,89,90,118,94))","[89, 91] - Definition and key characteristics of uninformed search strategies, including breadth-first and depth-first search 
+[97, 99] - Introduction to informed search and heuristic-based approaches for efficient problem-solving 
+[105, 109] - Comparative analysis of uninformed vs. informed search in terms of time complexity, space complexity, and optimality"
+CP-2,what is heuristic evaluation,conceptual,"Artificial Intelligence a Modern Approach (""aima"")","( 
+[108, 110], 
+[115, 118],
+[168, 170]
+)","t5 = (aima-(169,186,110,383,116))","t5 = (aima-(169,186,110,383,116))","t5 = (aima-(383,169,110,177,101))","t5 = (aima-(169,186,116,110,118))","[108, 110] - Explain how heuristic functions estimate the cost to reach the goal and guide node expansion in informed search algorithms, directly addressing the concept of heuristic evaluation.
+[115, 118] - Comparative analysis of heuristic functions and their impact on search performance
+[168, 170] - Define heuristic evaluation as estimating the value of game states using feature-based scoring to guide search decisions."
+CP-3,What are the fundamental differences between propositional logic and first-order logic in AI reasoning,conceptual,"Artificial Intelligence a Modern Approach (""aima"")","(
+[265, 267], 
+[268, 270], 
+[230, 233] 
+)","t5 = (aima-(267,259,265,8,221))","t5 = (aima-(267,259,265,8,221))","t5 = (aima-(259,244,267,253,241))","t5 = (aima-(259,8,264,268,221))","[265, 267] - Compare propositional and first-order logic, highlighting their differences in expressiveness, structure, and ontological commitments in representing knowledge.
+[268, 270] - Explain how first-order logic adds objects and relations, making it more expressive than propositional logic for AI reasoning.
+[230, 233] - Introduces propositional logic, provides the foundation needed to compare it with first-order logic in AI reasoning."
+CP-4,How does moisture leaving the meat affect the cooking process and the texture of the final dish,conceptual,"Cooks Illustrated Annual 2019 recipes (""cia"")","(
+[4, 6], 
+[7, 9], 
+[12, 14]
+)","t5 = (cia-(72,4,101,28,8))","t5 = (cia-(72,4,101,28,8))","t5 = (aima-(72,73,78,77,76))","t5 = (cia-(28,48,41,26,31))","[4, 6] - Discusses how the release of moisture from marinated meat into a hot pan can cause splattering and affect browning.
+[7, 9] - Covers how ground beef loses moisture during cooking, leading to dryness, and how using a baking soda solution helps retain moisture for a tender texture.
+[12, 14] - Explains how steak releases juices while grilling, and how keeping some fat on the meat creates flare-ups that contribute to smoky grill flavor."
+CP-5,What are the key differences between cooking on a charcoal grill versus a gas grill,conceptual,"Cooks Illustrated Annual 2019 recipes (""cia"")","( 
+[27, 29], 
+[10, 12], 
+[16, 19] 
+)","t5 = (cia-(16,27,19,10,11))","t5 = (cia-(16,27,19,10,11))","t5 = (cia-(27,80,10),aima-(876),cia-(78))","t5 = (cia-(27,26,60,24,44))","[27, 29] - Covers direct vs. indirect heat and how charcoal provides smoky flavors
+[10, 12] - Describes how to arrange fuel, control heat zones, and use wood chips for indirect cooking on charcoal and gas grills.
+[16, 19] - Describes how to set up charcoal and gas grills for indirect cooking, adjust burner or coal placement, and add wood chips for flavor."
+CP-6,What role does vinegar play in post-cooking marinades ,conceptual,"Cooks Illustrated Annual 2019 recipes (""cia"")","( 
+[17, 19], 
+[6, 9], 
+[28, 30] 
+)","t5 = (cia-(9,19,29,112,49))","t5 = (cia-(9,19,29,112,49))","t5 = (cia-(73,72,76,74,112))","t5 = (cia-(29,41,23,32,28))","[17, 19] - Describes use of vinegar to add acidity that balances the richness of grilled meat
+[6, 9] - Describes use of vinegar for acidity to cut through the richness of grilled meat
+[28, 30] - Covers how vinegar in marinades improves moisture retention and balances seasoning."
+CP-7,What are the fundamental differences between deterministic and nondeterministic finite automata,conceptual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","( 
+[68, 71], 
+[76, 79], 
+[86, 89] 
+)","t5 = (iatl-(108,96,73,9,82))","t5 = (iatl-(108,96,73,9,82))","t5 = (aima-(382,378,58,380,498))","t5 = (iatl-(96,82,73,9,53))","[68, 71] - Introduction to deterministic and nondeterministic finite automata (DFA & NFA)
+[76, 79] - Formal definitions and examples of DFA and NFA
+[86, 89] - Equivalence of DFA and NFA, subset construction"
+CP-8,How do polynomial-time reductions help classify NP-complete problems,conceptual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[476, 479], 
+[449, 451], 
+[500, 502] 
+)","t5 = (iatl-(450,502,451,493,496))","t5 = (iatl-(450,502,451,493,496))","t5 = (aima-(1038,1037,245,194,200))","t5 = (iatl-(450,502,451,493,496))","[476, 479] - Introduction to polynomial-time reductions and their role in complexity theory 
+[449, 451] - Describes how polynomial-time reductions transform one problem into another to prove NP-completeness
+[500, 502] - Application of reductions in proving NP-completeness"
+CP-9,What is preemptive scheduling and how does it differ from non-preemptive scheduling,conceptual,"Operating System Concepts (""os"")","(
+[269, 271], 
+[217, 219],
+[275, 277]
+)","t5 = (os-(269,318,1221),pcd-(218,287))","t5 = (os-(269,318,1221),pcd-(218,287))","t5 = (os-(276,280,1072),pcd-(218,287))","t5 = (os-(269,318),pcd-(287,218),os-(276))","[269, 271] - Explain preemptive vs. non-preemptive scheduling, detailing when CPU control can be taken from a running process and the implications for system design.
+[217, 219] - Describes foundational context on CPU utilization, multithreading, and concurrency
+[275, 277] - Explain preemptive vs. non-preemptive scheduling in the context of Shortest Job First (SJF) and Round-Robin (RR) algorithms."
+CP-10,What role do consistency models play in distributed file systems,conceptual,"Operating System Concepts (""os"")","(
+[742, 744],
+[747, 749],
+[905, 907]
+)","t5 = (os-(1201,905),pcd-(193),os-(1217,749))","t5 = (os-(1201,905),pcd-193,os-(1217,749))","t5 = (pcd-(386),os-(1232),aima-(1089),os-(1239),pcd-(193))","t5 = (os-(905),pcd-(193),os(742,897,1242))","[742, 744] - Explain how different consistency models control when file changes become visible in distributed file systems, directly affecting data sharing and performance.
+[747, 749] - Explain how consistency models ensure data coherence in distributed file systems.
+[905, 907] - Explain how consistency models ensure synchronized data across distributed file systems."
+CP-11,What are the fundamental abstractions in computer system design,conceptual,"Principles of Computer System Design: An Introduction (""pcd"")","(
+[62, 64], 
+[72, 75], 
+[78, 81] 
+)","t5 = (pcd-(62,63,109,64,74))","t5 = (pcd-(62,63,109,64,8))","t5 = (pcd-(63,109,64,74,8))","t5 = (pcd-(109, 74, 80,49,59))","[62, 64] - Describe the core abstractions in system design: memory, interpreter, and communication link.
+Interpreter abstraction: How operations are processed, decoded, and executed. 
+[72, 75] - Describe the fundamental abstractions: memory, interpreter, and communication link.
+[78, 81] - Describe key abstractions like memory, interpreters, and communication links in system design."
+CP-12,what role does indirect naming play in managing multiple contexts,conceptual,"Principles of Computer System Design: An Introduction (""pcd"")","( 
+[92, 94], 
+[138, 143], 
+[154, 157] 
+)","t5 = (pcd-(89,92,82,138,504))","t5 = (pcd-(89,92,82,138,504))","t5 = (pcd-(504,89,92,327,82))","t5 = (pcd-(92,82,504,93,95))","[92, 94] - Explain how indirect naming (like symbolic links) helps resolve conflicts and manage multiple contexts, allowing flexibility in naming and access.
+[135, 138] - Describe how indirect naming avoids conflicts by linking names across different contexts in modular systems.
+[154, 157] - Explain how indirect naming resolves conflicts between contexts and ensures flexibility in referencing objects across different layers."
+CP-13,how does eventual consistency differ from strong consistency in terms of system behavior and guarantees,conceptual,"Principles of Computer System Design: An Introduction (""pcd"")","(
+  [219, 221],
+  [210, 212],
+  [90, 92]
+)
+","t5 = (pcd-(500,531,523),aima-(201),pcd-(530))","t5 = (pcd-(500,531,523),aima-(201),pcd-(530))","t5 = (os-(360),aima-(617),pcd-(326,531),aima-(614))","t5 = (pcd-(500,531,523),aima-(201),pcd-(530))","[219, 221] - Explain how virtualization and modularity, like consistency models, manage isolated components and communication in distributed systems.
+[210, 212] - Explain how NFS’s close-to-open consistency delays visibility of changes until specific access points, paralleling eventual consistency’s allowance for temporary staleness before synchronization.
+[91, 93] - Explain indirect naming and path resolution related to eventual consistency and strong consistency in distributed systems"
+MM-1, how do state transition graphs work,multi-modal ,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [59, 61],
+  [62, 64],
+  [121, 123]
+)
+","t5 = (iatl-(142), aima-(160,80,112,85))","t5 = (iatl-(142),aima-(160,80,112,85))","t5 = (aima-(80,78,616,432),pcd-(441))","t5 = (aima-(80,112,85),iatl-(123,443))","[59, 61] - Explains how product automata combine states, define valid transitions, and reveal reachable or error states. 
+[62, 64] - Explains DFA structure and processing, showing how transition diagrams depict states, inputs, and arcs to visualize how automata change states for each symbol. 
+[121, 123] - Shows how state transition graphs depict NFA/DFA states and labeled arcs, illustrating all possible paths and transitions for processing inputs and recognizing a language."
+MM-2,"How do Bayesian networks represent dependencies between discrete and continuous variables, and how is cost distribution affected by subsidies",multi-modal ,"Artificial Intelligence a Modern Approach (""aima"")","(
+[435, 437], 
+[438, 440],
+[466, 468]
+)","t5 = (aima-(435,436,467,440,468))","t5 = (aima-(435,436,467,440,468))","t5 = (aima-(435,436,440,498,433))","t5 = (aima-(435,436,467,440,468))","[435, 437] - Shows how hybrid Bayesian nets model discrete–continuous links and how subsidies shift the cost distribution in relation to harvest size. 
+[438, 440] - Shows hybrid Bayesian nets linking discrete and continuous variables, with subsidies lowering costs in the cost–harvest relationship. 
+[466, 468] - Gives background on hybrid Bayesian nets with discrete and continuous variables relating to modeling cost–harvest–subsidy dependencies."
+MM-3,How does binary search on an index improve access time in sequential file systems using direct-access operations,multi-modal ,"Operating System Concepts (""os"")","(
+  [670, 672],    
+  [700, 702],   
+  [708, 710]  
+)
+","t3 = (os-(671,670,702,700,669))","t5 = (os-(671,670,702,700,669))","t5 = (os-(671),pcd-(325),os-(680,700),aima-(103))","t5 = (os-(671,702,669,700,709))","[670, 672] - Shows how an in-memory sorted index enables binary search to quickly find the target block, reducing direct-access reads and improving access time. 
+[700, 702] - Describes how a sorted directory enables binary search to speed up locating files for direct-access operations. 
+[708, 710] - Compares allocation methods and their direct-access performance, supporting why fast search structures like binary search on an index improve file access time."
+MM-4,What are the step-by-step procedures for preparing the perfect ravioli,multi-modal ,"Cooks Illustrated Annual 2019 recipes (""cia"")","(
+  [36, 38]
+)
+","t5 = (cia-(36,37,2,18,23))","t5 = (cia-(36,37,2,18,23))","t5 = (cia-(36,37,71,74,73))","t5 = (cia-(38,23,43,31,27))","[36, 38] - Provides the complete step-by-step ravioli preparation process, from making and resting the dough, to rolling, shaping, boiling, and finishing with sauce."
+MM-5,How does a PDA use stack operations to recognize context-free languages,multi-modal ,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[256, 258], 
+[270, 272], 
+[313, 316] 
+)","t5 = (iatl-(270,273,432,312,308))","t5 = (iatl-(270,273,432,312,308))","t5 = (aima-(854,197),os-(1237),aima-(246,857))","t5 = (iatl-(270,312,432,308,310))","[256, 258] - Shows how PDA stack operations enable acceptance by empty stack or final state. 
+[270, 272] - Explains how DPDAs use stack pushes, pops, and markers to simulate recognition, accept languages, and relate to context-free grammar properties. 
+[313, 316] - Shows how PDA behavior and equivalence proofs rely on simulating transitions and controlling stack use, reinforcing how stack operations enable CFL recognition."
+MM-6,How does the reduction process construct a machine that distinguishes whether another machine accepts a given input,multi-modal ,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [410, 412],
+  [413, 416],
+  [401, 403]
+)","t5 = (iatl-(412,414,406,415,410))","t5 = (iatl-(412,414,406,415,410))","t5 = (aima-(241,857,671,242,460))","t5 = (iatl-(412,414,406,415,411))","[410, 412] - Explains how a reduction builds a new TM that ignores its own input, simulates the target machine on a fixed string, and accepts iff the original machine accepts that string. 
+[413, 416] - Shows how the reduction constructs a TM that accepts only if the original machine accepts the given input. 
+[401, 403] - Explains constructing a TM that, by simulating both a machine and its complement, decides acceptance, showing how to build a machine that determines if another accepts a given input."
+MM-7,What components are involved when I use cloud services like virtual machines over the internet,multi-modal ,"Operating System Concepts (""os"")","(
+  [73, 75],     
+  [843, 845],   
+  [863, 865]  
+)
+","t5 = (os-(73,839,1262,1242,865))","t5 = (os-(73,839,1262,1242,865))","t5 = (os-(839,840,1072,836,1233))","t5 = (os-(73,839,1242,1262,865))","[73, 75] - Shows cloud architecture components and their roles in delivering services. 
+[843, 845] - Shows how virtualization enables deploying and managing VMs in cloud services. 
+[863, 865] - Explains VM architecture, storage, and migration in cloud setups—covering VMMs, guest OSs, virtual hardware, host OS, networked storage, and management tools."
+MM-8,"How do magnetic disks work, and what factors influence their read/write performance
+
+",multi-modal ,"Principles of Computer System Design: An Introduction (""pcd"")","([68, 70], 
+[332, 335], 
+[338, 340] 
+)","t5 = (pcd-(340,339,68,333),os-(577))","t5 = (pcd-(340,339,68,333),os-(577))","t5 =(os-(1159), pcd-(68,381),os-(577),pcd-(69))","t5 = (pcd-(340,68,339,333,69))","[68, 70] - Explains magnetic disk structure, how data is read/written via seek and rotation, and factors affecting performance. 
+[332, 335] - Describes disk structure and performance factors affecting read/write speed. 
+[338, 340] - Explains by comparing magnetic disks to faster memories like RAM, explaining their mechanical structure, latency, transfer rates, and how factors like seek time, rotational delay, and cell size impact performance."
+MM-9,"How does a shared bus architecture manage communication between processors, memory, and peripheral devices",multi-modal ,"Principles of Computer System Design: An Introduction (""pcd"")","(
+[226, 228], 
+[100, 102], 
+[210, 213] 
+) 
+","t5 = (pcd-(100),os-(43),pcd-(227,102), os-(1259))","t5 = (pcd-(100),os-(43),pcd-(227,102), os-(1259))","t5 = (os-(35),pcd-(100),os-(36),pcd-(509),os-(836))","t5 = (os-(43),pcd-(102),os-(1259,46,35))","[226. 228] - Explain how SEND/RECEIVE over a shared bus coordinates communication and synchronization between system components.
+[100, 102] - Explains how a shared bus uses addresses, arbitration, and protocols (including DMA) to coordinate data transfer between processors, memory, and devices.
+[210, 213] - Explains by showing how NFS coordinates communication and data transfer between clients and servers."
+MM-10,What is the DFA minimization algorithm,multi-modal ,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [174, 176],
+  [178, 180],
+  [62, 64]
+)
+","t5 = (iatl-(178,176,179,181,183))","t5 = (iatl-(178,176,179,181,183))","t5 = (aima-(109),os-(273,515),aima-(791,163))","t5 = (iatl-(176,178,179,181,173))","[174, 176] - Explains the table-filling method for detecting equivalent states, proving its correctness, and showing how it’s used to minimize a DFA to the smallest equivalent form. 
+[178, 180] - Explains the partitioning method for DFA minimization, using equivalent state blocks from the table-filling algorithm to build the smallest possible DFA. 
+[62, 64] -  Explains the foundational DFA concepts—states, transitions, acceptance, and representations."
+MP-1,What are the key challenges in reinforcement learning,multi-page,"Artificial Intelligence a Modern Approach (""aima"")","(
+[802, 805], 
+[818, 820], 
+[827, 829] 
+)","t5 = (aima-(971,783,802,988,829))","t5 = (aima-(971,783,802,829,988))","t5 = (aima-(971,802,797,805,12))","t5 = (aima-(783,829,835,818,814))","[802, 805] - Explanation of key challenges in reinforcement learning, including the exploration-exploitation trade-off 
+[818, 820] - Outlines Reinforcement learning challenges that impact learning efficiency and decision accuracy.
+[827, 829] - Highlights RL challenges like sparse rewards, need for effective exploration, handling suboptimal demonstrations in inverse RL, and difficulties learning from raw perceptual inputs."
+MP-2,what are multi-agent systems and how do they coordinate decision-making in competitive and cooperative environments,multi-page,"Artificial Intelligence a Modern Approach (""aima"")","(
+[611, 613], 
+[614, 617], 
+[57, 59] 
+)","t5 = (aima-(663,659,612,613,23))","t5 = (aima-(663,659,612,613,23))","t5 = (aima-(663,612,613,614,659))","t5 = (aima-(612,613,23,10,614))","[611, 613] - Explains multi-agent systems, focusing on coordination, game theory, and decision-making in both competitive and cooperative environments
+[614, 617] - Discusses multi-agent systems where agents coordinate their actions in cooperative environments to achieve shared goals while handling concurrency and planning challenges
+[57, 59] - Discusses how multi-agent systems coordinate decision-making in both cooperative and competitive environments by considering other agents' actions and managing concurrency"
+MP-3,"How does the choice of k in k-nearest neighbors (k-NN) impact model performance, particularly in terms of overfitting and generalization",multi-page,"Artificial Intelligence a Modern Approach (""aima"")","(
+[686, 688], 
+[700, 704],
+[779,  781]
+)","t5 = (aima-(700,704,705,891,750))","t5 = (aima-(700,704,705,891,750))","t5 = (aima-(876,704,874,800,700))","t5 = (aima-(891,876,1085,874,782))","[686, 688] - Discusses the concept of hypothesis space restrictions (like in decision lists), where a smaller value of k allows for more effective generalization
+[700, 704] - Describes the choice of k in k-NN impacts overfitting and generalization 
+[779, 781] - Explains how tuning hyperparameters, like k in k-NN, impacts model performance by balancing overfitting and generalization"
+MP-4,"How does the combination of yogurt, cream, and tomato create a balance of flavors and texture",multi-page,"Cooks Illustrated Annual 2019 recipes (""cia"")","( 
+[28, 30], 
+[31, 33], 
+[37, 39] 
+)","t5 = (cia-(29,28,32,65,82))","t5 = (cia-(29,28,32,65,82))","t5 = (cia-(76,32,75,73,74))","t5 = (cia-(28,29,32,58,23))","[28, 30] - Explains how cream stabilizes emulsions, creating a smooth texture. 
+[31, 33] - Covers how tomato paste adds acidity, balancing the richness of cream. 
+[37, 39] - Discusses how yogurt enhances tanginess, adds creaminess, and aids in browning meat."
+MP-5,How does vinegar and sugar change the texture of cooked rice,multi-page,"Cooks Illustrated Annual 2019 recipes (""cia"")","(
+[40, 42], 
+[4, 6],
+[68, 69]
+)","t5 = (cia-(62,41,4,9,73))","t5 = (cia-(62,41,4,9,73))","t5 = (cia-(73,75,74,71,72))","t5 = (cia-(41,29,57,28,32))","[40, 42] - Discusses how vinegar enhances the texture of rice and balances flavors. 
+[4, 6] - Explains how acidity (vinegar) and sugar interact in cooking and preservation. 
+[68, 69] - Explains how vinegar softens and sugar adds sweetness, improving the texture and flavor balance of ingredients.
+"
+MP-6,How is saffron used in Mediterranean dishes,multi-page,"Cooks Illustrated Annual 2019 recipes (""cia"")","( 
+[12, 13], 
+[67, 69]
+)","t5 = (cia-(68,67,38,114,18))","t5 = (cia-(68,67,38,114,18))","t5 = (cia-(73,72,74,38),aima-(260))","t5 = (cia-(38,41,28,32,57))","[12, 13] - Discusses how saffron is used in Picada to enhance depth and color. 
+[67, 69] - Explains how saffron adds rich flavor and color to Mediterranean dishes, enhancing their depth and complexity."
+MP-7,How does the Pumping Lemma help prove that a language is not regular,multi-page,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[143, 145], 
+[146, 148], 
+[210, 212]
+)","t5 = (iatl-(144,147,145,146,325))","t5 = (iatl-(144,147,145,146,325))","t5 = (aima-(804,246,853,855,319))","t5 = (iatl-(144,147,145,146,325))","[143, 145] - Introduction to the Pumping Lemma and its significance
+[146, 148] - Discusses how the Pumping Lemma can be used to prove that certain languages are not regular by introducing a formal adversarial game
+[210, 212] - Explains how the Pumping Lemma proves non-regularity by showing contradictions in string patterns."
+MP-8,"How does the relationship between P and NP impact computational complexity theory
+",multi-page,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[492, 495], 
+[500, 504], 
+[442, 444]
+)","t5 = (aima-(397,1037),iatl-(442,451,501))","t5 = (aima-(397,1037),iatl-(442,451,501))","t5 = (aima-(1037,1038,436,853,397))","t5= (aima-(397,1037),iatl-(442,451,527))","[492, 495] - Introduction to the P vs NP problem and its significance in computational complexity 
+[500, 504] - Explores the relationship between NP, coNP, and P, illustrating how complexity classes influence problem solvability, such as primality testing and NP-complete problems
+[442, 444] - Explains how P vs NP impacts problem solvability and computational complexity theory."
+MP-9,How does the reduction of Ld to Lu demonstrate that Lu is not recursive,multi-page,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[403, 406], 
+[407, 409], 
+[411, 415] 
+)","t5 = (iatl-(415,405,406,433,14))","t5 = (iatl-(415,405,406,433,14))","t5 = (os-(831),aima-(320,313,976,557))","t5 = (iatl-(405,433,406,405,415))","[403, 406] - Explanation of the reduction from Ld to Lu and how it establishes the non-recursiveness of Lu
+[407, 409] - Explains how the reduction of Ld to Lu demonstrates that if Lu were recursive, Ld would also be recursive 
+[411, 415] - Explains the reduction of Ld to Lu demonstrates that Lu is not recursive
+"
+MP-10,How is the operating system perceived differently by users compared to how it functions internally for the system,multi-page,"Operating System Concepts (""os"")","(
+  [31, 33],  
+  [76, 78],  
+  [85, 87]   
+)
+","t5 = (os-(105,85,32,668,86))","t5 = (os-(105,32,85,668,51))","t5 = (os-(32,513,675,913,756))","t5 = (os-(105,85,32,668,86))","[31, 33] - Explains the user’s experience-oriented perception of the OS with the system’s internal, hardware-management role
+[76, 78] - Describes the history, licensing, and distribution of free and open-source operating systems like GNU/Linux and BSD UNIX, and how source code access enables learning and development
+[85, 87] - Explains the OS through services like the UI, program execution, file handling, and communication"
+MP-11,"What is the primary requirement for secondary storage in computer systems, and why is it needed",multi-page,"Operating System Concepts (""os"")","( 
+[41, 43], 
+[573, 575], 
+[700, 702]
+)","t5 = (os-(41,609,58,571,57))","t5 = (os-(41,609,58,57,571))","t5 = (os-(513,58,1000,591,57))","t5 = (os-(41,609,58,571,57))","[41, 43] - Discusses the limitations of main memory and describes the role and characteristics of secondary storage, directly relating to why it is required and what its main requirement is 
+[573, 575] - Describes the structure and operation of secondary storage devices like HDDs and NVM, providing context for their role and necessity in meeting long-term, high-capacity storage needs 
+[700, 702] - Explains directory structures, file allocation methods, and how secondary storage is organized and accessed"
+MP-12,What role do layers play in system architecture,multi-page,"Principles of Computer System Design: An Introduction (""pcd"")","(
+[76, 79], 
+[97, 99], 
+[106, 109] 
+)","t5 = (pcd-(77),os-(117),pcd-(44,98,319))","t5 = (os-(117),pcd-(77,44,98,319))","t5 = (os-(117,114,113,1238,1076))","t5 = (os-(1254,879,1076),pcd-(533),os-(1245))","[76, 79] - Explains how the layers in system architecture provide abstraction barriers between components, allowing each layer to offer a defined set of instructions or services
+[97, 99] - Explains how layers structure a system into hardware, operating system, and application levels
+[106, 109] - Shows that layers, such as the file system between applications and hardware, provide uniform abstractions and modular interfaces that hide device details, support flexibility, and allow interchangeable components without changing application code"
+MP-13,What are the key design trade-offs in distributed systems,multi-page,"Operating System Concepts (""os"")","(
+[891, 894], 
+[905, 907], 
+[85, 87] 
+)","t5 = (os-(871,27,891,84,1204))","t5 = (os-(871,27,891,84,1204))","t5 = (os-(836,911),pcd-(270),os-(891),pcd-(386))","t5 = (os-(871,27,894,873,908))","[891, 894] - Outlines core design considerations in distributed systems—such as robustness, transparency, and scalability
+[905, 907] - Discusses consistency mechanisms, architectural models, and operational challenges in distributed file systems, highlighting the performance, availability, and complexity trade-offs inherent in distributed system design
+[85, 87] - Outlines OS services that mirror distributed system trade-offs between usability, performance, security, and resource efficiency"
+MP-14,tell me about bellman-ford algorithm and give an example,multi-page,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [581, 583],
+  [587, 589],
+  [609, 611]
+)
+","t5 = (aima-(78,120,581,587,583))","t5 = (aima-(78,120,581,587,583))","t5 = (aima-(78,661,1084,120,581))","t5 = (aima-(78,120,609,661,1084))","[581, 583] - Explains the Bellman equations and Q-function, which form the foundation for computing optimal policies in sequential decision-making problems 
+[587, 589] - Explains how the Bellman update’s contraction property ensures value iteration converges to optimal utilities 
+[609, 611] - Provides historical context on Richard Bellman’s contributions to dynamic programming, which underlies algorithms like Bellman-Ford for solving shortest path problems"
+NU-1,What is the formula for estimating the probability of a word using a Markov n-gram model,numerical,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [838, 840],  
+  [841, 843],
+  [455, 457]
+)","t5 = (aima-(839,840,535,841,534))","t5 = (aima-(839,840,535,841,534))","t5 = (aima-(456,839,792,875,457))","t5 = (aima-(839,840,841,535,409))","[838, 840] - Explains the Markov n-gram assumption that each word depends only on the previous n−1 words 
+[841, 843] - Explains how a Markov n-gram model estimates word probability by combining trigram, bigram, and unigram probabilities through weighted linear interpolation 
+[455, 457] - Explains Gibbs sampling in Bayesian networks and Markov chain analysis, which parallels the probabilistic sequence modeling principles behind Markov n-gram probability estimation"
+NU-2,What is the cost difference between the path found by the weighted A search and the path found by standard A in terms of percentage,numerical,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [89, 91],
+  [96, 98],
+  [103, 106]
+)
+","t5 = (aima-(104,119,103,121,98))","t5 = (aima-(104,119,103,121,98))","t5 = (aima-(104,103,106,105,109))","t5 = (aima-(104,103,121,99,98))","[89, 91] - Outlines search strategies, path-cost evaluation, and cost optimality providing the framework to compare the percentage cost difference 
+[96, 98] - Explains heuristic search and cost/evaluation framework, providing the basis to compare path costs and thus percentage differences 
+[103, 106] - Explains how weighted A finds a path about 5% costlier than standard A while exploring fewer states"
+NU-3,How many transition rules are required to simulate a given Turing machine using a Modified Post Correspondence Problem (MPCP) instance,numerical,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [421, 423],
+  [424, 427],
+  [356, 358]
+)
+","t5 = (iatl-(423,437,14,427,417))","t5 = (iatl-(423,437,427,14,417))","t5 = (aima-(460,454,523,616,976))","t5 = (iatl-(423,437,14,421,427))","[421, 423] - Explains that simulating a Turing machine in MPCP requires tile pairs for each transition, symbol-copying, and acceptance handling, with the count depending on the machine’s states and alphabet 
+[424, 427] - Describes the template pairs used in MPCP, showing that the number of required rules scales with the machine’s states and tape alphabet rather than being a fixed count 
+[356, 358] - Explains how each Turing machine transition is converted into specific MPCP pairs, making the total rules depend on the TM’s transitions and tape symbols."
+NU-4,How many production rules are introduced when converting a group of m left-recursive rules into Greibach Normal Form (GNF) using the transformation described,numerical,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [294, 296],
+  [290, 293],
+  [316, 318]
+)
+","t5 = (iatl-(293,294,295,290,288))","t5 = (iatl-(293,294,295,290,288))","t5 = (aima-(312,855,315,1096,251))","t5 = (iatl-(293,294,295,290,288))","[294, 296] - Explains how replacing m left-recursive A(i) rules with a new B(i) in GNF introduces additional productions based on A(i) and B(i) expansions 
+[290, 293] - Explains how the transformation replaces each left-recursive rule group with new helper productions, adding a fixed number of rules per original rule 
+[316, 318] - Explains how grammar/PDA conversions affect rule counts and runtime, which frames estimating the number of rules added when transforming left-recursive groups into GNF"
+NU-5,How is the predicted CPU burst time calculated after a series of actual bursts using exponential averaging,numerical,"Operating System Concepts (""os"")","(
+  [275, 277], 
+  [281, 283],  
+  [266, 268]   
+)
+","t5 = (os-(275,322,276,273,279))","t5 = (os-(275,322,276,273,279))","t5 = (os-(275,276,273,279,277))","t5 = (os-(275,322,276,319,268))","[275, 277] - Explains how the predicted CPU burst time is computed by weighting the most recent burst and the historical prediction 
+[281, 283] - Explains exponential averaging for CPU bursts - showing that the next prediction is a weighted combination of the most recent burst and prior estimates 
+[266, 268] - Explains the CPU–I/O burst cycle, which forms the basis for predicting future CPU burst times using exponential averaging"
+NU-6,How does the speedup vary with the number of processing cores for different values,numerical,"Operating System Concepts (""os"")","( 
+[221, 223], 
+[256, 258],
+[397, 399]
+)
+","t5 = (os-(221,161,256,44),pcd-(325))","t5 = (os-(221,161,256,44),pcd-(325))","t5 = (pcd-(325),os-(256,836,1073),pcd-(383))","t5 = (os-(221,161),pcd-(325),os-(219),aima-(536))","[221, 223] - Explains how Amdahl’s Law models speedup growth for varying core counts, showing that higher serial portions limit performance gains regardless of added cores
+[256, 258] - Explains how increasing processing cores affects performance for different amounts of serial work in a program 
+[397, 399] - Discusses approaches like transactional memory, OpenMP, and functional programming that influence how effectively speedup scales with more processing cores"
+NU-7,How many lock acquisitions and releases occur in each thread during one full execution of its loop,numerical,"Principles of Computer System Design: An Introduction (""pcd"")","(
+  [299, 301]
+  [239, 241],
+  [243, 245]
+)","t5 = (pcd-(300,243,275,244),os-(361))","t5 = (pcd-(300,243,275,244),os-(361))","t5 = (pcd-(506,300),os-(439),aima-(386),pcd-(449))","t5 = (pcd-(300,243,275,244,336))","[299, 301] - Describes how lock acquisitions and releases are used in AWAIT, ADVANCE, and READ to ensure atomic thread coordination 
+[239, 241] - Explains how threads use ACQUIRE/RELEASE on locks providing the basis to count how many lock operations each thread performs per loop iteration 
+[243, 245] - Explains the ACQUIRE/RELEASE locking protocol and when each is called in a loop (with RSM/spin behavior)"
+NU-8,How many threads are needed to fully utilize a processor given a specific instruction count and round-trip time,numerical,"Principles of Computer System Design: An Introduction (""pcd"")","(
+[381, 383], 
+[335, 337], 
+[232, 234] 
+)","t5 = (pcd-(383,347,329,516,335))","t5 = (pcd-(383,347,329,335,516))","t5 = (pcd-(383,329,327),os-(40),aima-(106))","t5 = (pcd-(383,347,335,518,233))","[381, 383] - Explains how thread count depends on instruction rate and request latency to keep the CPU fully utilize 
+[335, 337] - Explains overlapping computation with I/O to determine threads needed to keep the CPU fully utilized 
+[232, 234] - Explains how asynchronous thread timing and I/O-induced waits affect CPU utilization"
+TB-1,"What are the performance measure, environment, actuators, and sensors of a medical diagnosis system agent type",tabular,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [52, 54],
+  [55, 57],
+  [58, 60]
+)
+","t5 = (aima-(57,56,60,73,67))","t5 = (aima-(57,56,60,73,67))","t5 = (aima-(57,73,56,60,942))","t5 = (aima-(60,1107,73,55,49))","[52, 54] - Explains how an agent’s performance measure, environment, actuators, and sensors define its rational behavior, using examples to illustrate how these factors determine what actions maximize expected performance
+[55, 57] - Outlines the PEAS components for a medical diagnosis system, detailing how its performance measure, environment, actuators, and sensors are defined 
+[58, 60] - Explains the properties of various task environments, including medical diagnosis, and identifies its performance measure, environment, actuators, and sensors"
+TB-2,What are the key properties used to characterize different task environments for intelligent agents,tabular,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [55, 57],
+  [60, 62],
+  [49, 51]
+)
+","t5 = (aima-(60,56,55,59,73))","t5 = (aima-(60,56,55,59,73))","t5 = (aima-(73,79,60,56,55))","t5 = (aima-(60,55,59,73,49))","[55, 57] - Explains how task environments vary along dimensions like observability and number of agents, which influence agent design and implementation choices 
+[60, 62] - Lists and compares task environments based on properties like observability, determinism, and continuity to guide agent design 
+[49, 51] - Explains how agent behavior is shaped by environment properties like observability, randomness, and complexity"
+TB-3,What is the next state and head direction when the Turing machine is in state q1 and reads a 0,tabular,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [346, 349],
+  [356, 359],
+  [403, 405] 
+)
+","t5 = (iatl-(521,346,349,359,404))","t5 = (iatl-(521,346,349,359,404))","t5 = (aima-(460),os-(514,438),aima-(250),os-(435))","t5 = (iatl-(438,354,349,359,349))","[346, 349] - Describes transition behavior of the Turing machine with state-symbol-direction rules 
+[356, 359] - Provides explicit transition rules for state q1 on reading symbols like 0, enabling identification of the next state and head movement 
+[403, 405] - Details the transition rules and universal Turing machine simulation steps, enabling identification of the next state and head direction from state q1 on reading 0"
+TB-4,How do the transitions guide the machine to reach an accepting state on a given input,tabular,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+  [159, 161],
+  [403, 405],
+  [170, 173]
+)
+","t5 = (iatl-(63,275,160,405,153))","t5 = (iatl-(63,275,405,160,153))","t5 = (aima-(460,382,804,257,805))","t5 = (iatl-(275,63,405,179,72))","[159, 161] - Explains how homomorphisms and transition-based encodings simulate state sequences, helping the machine validate and reach accepting states 
+[403, 405] - Explains how homomorphisms and transition-based encodings simulate state sequences, helping the machine validate and reach accepting states 
+[170, 173] - Explains how transitions and state equivalence determine whether a DFA reaches an accepting state for a given input string"
+TB-5,What are the I/O port address ranges assigned to different devices in a typical PC configuration,tabular,"Operating System Concepts (""os"")","(
+  [618, 620],   
+  [925, 927], 
+  [1096, 1098]  
+)","t5 = (os-(620,926,36,655,653))","t5 = (os-(620,926,36,655,653))","t5 = (os-(620,36,32,1157,594))","t5= (os-(620,926,655,653,619))","[618, 620] - Lists typical I/O port address ranges for devices like DMA, timers, serial ports, and controllers, directly showing how PCs assign ports to different hardware 
+[925, 927] - Content explains how Linux modules and drivers reserve hardware resources like I/O ports, showing why specific address ranges must be assigned and tracked for different devices in a PC 
+[1096, 1098] - Discusses how Windows manages hardware resources like I/O ports through the Plug-and-Play manager, showing why fixed address ranges must be assigned and tracked for different PC devices"
+TB-6,What is the function of the resident bit (r) in multilevel memory management,tabular,"Principles of Computer System Design: An Introduction (""pcd"")","( 
+[342, 345], 
+[346, 349], 
+[361, 363] 
+)","t5 = (pcd-(344,346,361,345,350))","t5 = (pcd-(344,346,361,345,350))","t5 = (pcd-(344,346,442),aima-(943),pcd-(361))","t5 = (pcd-(346,344,361,345,340))","[342, 345] - Explains how the resident bit determines whether a page is in RAM or must be fetched from disk, which is central to multilevel memory management
+[346, 349] - Explains how the resident bit tracks whether a page is in RAM and enables correct handling of missing-page exceptions through updated mappings
+[361, 363] - Explains how the resident bit and referenced bit help track page usage and guide efficient page-removal decisions in multilevel memory systems"
+TB-7,What are the categories of abstractions and their corresponding procedures defined in the minimal operating system interface,tabular,"Principles of Computer System Design: An Introduction (""pcd"")","(
+  [224, 226],
+  [219, 221],
+  [97, 99]
+)
+","t5 = (pcd-(225,98,226,258,109))","t5 = (pcd-(225,98,226,258,109))","t5 = (pcd-(225,508),os-(1235,192,114))","t5 = (pcd-(109),os-(1196,1211,1132,1216))","[224, 226] - Explains the categories - Memory, Interpreter, and Communication - alongside their corresponding procedures in the minimal operating system interface table 
+[219, 221] - Explains how the operating system uses abstractions like virtual memory, threads, and communication primitives to create isolated virtual computers, aligning with abstraction categories in the minimal OS interface 
+[97, 99] - Explains how system components are organized into layers using names and APIs, clarifying how abstractions like files and processes map to procedures in the minimal OS interface"
+TE-1,How does a model-based reflex agent maintain and utilize an internal state to make decisions in a dynamic environment,textual,"Artificial Intelligence a Modern Approach (""aima"")","(
+[64, 66], 
+[69, 71], 
+[257, 260] 
+)","t5 = (aima-(65,66,64,73,67))","t5 = (aima-(65,66,64,73,67))","t5 = (aima-(73,803,260,257,661))","t5 = (aima-(65,66,73,67,68))","[64, 66] - Explains how model-based reflex agents update internal state using percepts, a transition model, and a sensor model to handle partial observability and make context-aware decisions
+[69, 71] - Explains how model-based agents use learned environment models and percept sequences to update internal state and inform decision-making in changing conditions
+[257, 260] - Explains how propositional logic-based agents construct and update a knowledge base over time to track changes and derive action sequences using inference"
+TE-2,"How do standard logical equivalences simplify propositional theorem proving, and why are they essential in AI reasoning
+",textual,"Artificial Intelligence a Modern Approach (""aima"")","(
+[235, 237], 
+[238, 240], 
+[242, 244] 
+)","t5 = (aima-(236,235,240,237),iatl-(30))","t5 = (aima-(236,235,240,237),iatl-(30))","t5 = (aima-(236,235,240,244,237))","t5 = (aima-(236,235,237,240),iatl-(30))","[235, 237] - Shows how logical equivalences like DeMorgan’s, implication elimination, and biconditional elimination transform sentences into simpler forms for efficient inference during theorem proving
+[238, 240] - Explains how equivalences like DeMorgan’s laws and implication elimination convert sentences into CNF, enabling resolution-based theorem proving in AI reasoning
+[242, 244] - Demonstrates how resolution, clause transformation, and Horn clause inference leverage logical equivalences to simplify and systematize theorem proving in AI reasoning"
+TE-3,How do the optimal policies and state utilities in passive reinforcement learning reflect the underlying transition dynamics and reward structure,textual,"Artificial Intelligence a Modern Approach (""aima"")","( 
+[804, 808], 
+[580, 582], 
+[810, 812] 
+)","t5 = (aima-(804,806,808,807,580))","t5 = (aima-(804,806,808,807,580))","t5 = (aima-(804,806,808,807,810))","t5 = (aima-(161), pcd-(354),aima-(164,157,623))","Explanation of Passive Reinforcement Learning, including utility estimation and transition models 
+Details on Optimal Policies and State Utilities in Markov Decision Processes (MDPs)"
+TE-4,"What is Picada, and how does it enhance the texture and flavor of dishes",textual,"Cooks Illustrated Annual 2019 recipes (""cia"")","([12, 13] )","t5 = (cia-(13,12,109,11,32))","t5 = (cia-(13,12,109,11,32))","t5 = (cia-(80,74,32),aima-(107,871))","t5 = (cia-(109,114,32,92,112))
+","Introduces Picada as a Catalan blend of ground nuts, bread, garlic, and parsley. Explains how frying the nuts and bread in olive oil adds richness and nutty complexity to dishes.
+Discusses how Picada thickens sauces by binding ingredients together, enhances umami through toasted nuts and garlic, and adds depth of flavor by absorbing the sauce’s spices and liquids."
+TE-5,What is the significance of the Turing machine model in defining computability,textual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[336, 339], 
+[341, 345], 
+[360, 362] 
+)","t5 = (iatl-(390,342,331,15,355))","t5 = (iatl-(390,342,331,15,355))","t5 = (aima-(684,669,801,1077,1085))","t5 = (iatl-(342,331,15,355,362))","[336, 339] - Illustrates how Turing machines formalize computation limits through paradoxes and reductions, helping define which problems are computable
+[341, 345] - Demonstrates how the Turing machine provides a simple, precise framework to formalize and analyze what problems are computable or undecidable
+[360, 362] - Proves Turing machines define computability by showing even multitape variants compute the same class of problems"
+TE-6,How does the product automaton help compute the intersection of two languages,textual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[150, 153], 
+[154, 156], 
+[143, 145] 
+)","t5 = (iatl-(154,152,59,308,143))","t5 = (iatl-(154,152,59,308,143))","t5 = (aima-(860),pcd-(503),aima-(859),pcd-(505),aima-(140))","t5 = (iatl-(154,152,59,150,60))","[150, 153] - Shows how running two DFAs in parallel with paired states ensures acceptance only when both accept
+[154, 156] - Shows through examples that pairing states from two DFAs tracks both machines simultaneously, ensuring acceptance only when both accept
+[143, 145] - Explains closure properties of regular languages, directly supporting how the product automaton computes intersections"
+TE-7,What role does paging play in the operating system's memory management,textual,"Operating System Concepts (""os"")","(
+[466, 468], 
+[489, 491], 
+[1130, 1132] 
+)","t5 = (os-(466,495,494,469,491))","t5 = (os-(466,495,494,469,491))","t5 = (os-(513,593,495,491,494))","t5 = (os-(466,495,469,470,1147))","[466, 468] - Introduces paging as a memory-management scheme that eliminates external fragmentation by mapping noncontiguous logical pages to physical frames 
+[489, 491] - Explains ARMv8’s hierarchical paging and TLB use, showing how paging enables efficient address translation and noncontiguous memory management in modern OSes 
+[1130, 1132] - Highlights UNIX and FreeBSD’s use of demand paging, showing how paging supports efficient memory management and CPU scheduling in modern operating systems"
+TE-8,what role does user authentication play in preventing unauthorized access,textual,"Operating System Concepts (""os"")","(
+[781, 783], 
+[784, 786],
+[803, 805]
+)","t5 = (os-(61,783,956,1274,804))","t5 = (os-(61,783,956,1274,796))","t5 = (os-(758,755,753,757,674))","t5 = (os-(783,816,1274,796,782))","[781, 783] - Explains TLS and authentication, showing how secure user and session identification is as critical to OS resource management as paging is to secure and efficient memory management 
+[784, 786] - Discusses authentication and protection mechanisms, paralleling how paging protects memory by controlling access and mapping processes safely within the OS 
+[803, 805] - Explains OS protection and privilege control, paralleling how paging enforces controlled memory access by isolating processes and preventing unauthorized interference"
+TE-9,what are the fundamental mechanisms used to build reliable systems from unreliable components,textual,"Principles of Computer System Design: An Introduction (""pcd"")","(
+[137, 139], 
+[393, 395], 
+[191, 193] 
+)","t5 = (pcd-(385,18,392,427,193))","t5 = (pcd-(385,18,392,427,193))","t5 = (pcd-(385,18),aima-(34),pcd-(427),os-(756))","t5 = (pcd-(385,193),os-(804),pcd-(59),os-(1215))","[137, 139] - Explains how context management, naming, and metadata organization enable modular system design that reduces ambiguity and enhances reliability across integrated components 
+[393, 395] - Introduce foundational concepts, historical insights, and engineering trade-offs essential to understanding how reliability is architected in complex systems 
+[191, 193] - Explains communication abstractions, buffering, indirection, and fault tolerance strategies that help design systems resilient to partial failures and asynchronous behavior"
+TE-10,How do digital systems maintain reliability despite analog noise,textual,"Principles of Computer System Design: An Introduction (""pcd"")","( 
+[45, 47], 
+[48, 50], 
+[39, 41] 
+)","t5 = (pcd-(47,48,49),aima-(683,535))","t5 = (pcd-(47,48,49),aima-(683,535))","t5 = (pcd-(47,48),aima-(494),pcd-(49),aima-(946))","t5 = (pcd-(47,48,49),aima-(683,535))","[45, 47] - Explains how digital systems, unlike analog ones, avoid noise accumulation, enabling scalable and reliable composition even as system complexity grows 
+[48, 50] - Describes how digital systems avoid cumulative noise through regeneration and abstraction, directly relating to understanding their resilience despite underlying analog components 
+[39, 41] - Illustrates how modularity and abstraction reduce complexity and error propagation, enabling system components to function reliably despite underlying imperfections"
+TE-11,What conditions lead to a deadlock,textual,"Operating System Concepts (""os"")","(
+  [416, 419],
+  [422, 424],
+  [434, 436]
+)
+","t5 = (os-(422,419),pcd-(239,240),os-(424))","t5 = (os-(419,422),pcd-(239,240),os-(424))","t5 = (os-(435,431,358,438,359))","t5 = (os-(422,419),pcd-(240),os-(446),pcd-(239))","[416, 419] - Explains the resource allocation rules and mutex example that illustrate how the four necessary conditions for deadlock can occur 
+[422, 424] - Explains how resource-allocation graphs illustrate the four necessary conditions for deadlock—mutual exclusion, hold and wait, no preemption, and circular wait—through examples of thread and resource interactions 
+[434, 436] - Explains how deadlock arises when requests exceed available resources and cycles form in wait-for graphs, illustrating the role of unsafe states and resource contention in causing deadlocks"
+TE-12,Where does a C program store memory allocated at runtime,textual,"Operating System Concepts (""os"")","(
+  [145, 148],
+  [458, 460],
+  [1035, 1037] 
+)","t5 = (os-(146,943,459,497,1036))","t5 = (os-(146,459,943,497,1036))","t5 = (os-(200,831),aima-(1036),os-(1073,832))","t5 = (os-(459,146,460,1036,494))","[145, 148] - Explains how memory allocated at runtime is stored in the heap section, helping identify where dynamic allocations reside in a C program 
+[458, 460] - Explains how execution-time binding and logical-to-physical address mapping using the MMU manage runtime memory allocation in a C program 
+[1035, 1037] - Explains how Windows manages runtime memory allocation in C programs using virtual memory, heaps, TLS, and AWE, showing where and how dynamically allocated memory is stored"
+TE-13,Where are embedded computers commonly found in real-time embedded systems,textual,"Operating System Concepts (""os"")","( 
+[73, 75],
+[294, 296],
+[67, 69]
+)","t5 = (os-(73,74,295,1200,1247))","t5 = (os-(73,74,295,1200,1247))","t5 = (os-(73,31,33,111,295))","t5 = (os-(73,295,1247,80,68))","[73, 75] - Describes real-time embedded systems and their applications in devices like car engines, robots, and appliances, helping to identify common contexts where embedded computers are used 
+[294, 296] - Explains how real-time embedded systems like brake controllers and radar systems demand low-latency responses, highlighting their typical use in safety-critical devices 
+[67, 69] - Describes how embedded computers are used in systems like mobile devices and disk controllers, highlighting real-time responsiveness and efficient resource tracking through bitmaps and hash maps"
+TE-14,What are the basic file operations that an operating system can perform,textual,"Operating System Concepts (""os"")","(
+  [661, 663],
+  [664, 666],
+  [670, 672] 
+)
+","t5 = (os-(662,663,681,697,670))","t5 = (os-(662,663,681,697,670))","t5 = (os-(671,113,697,34,138))","t5 = (os-(681,86,1135,945,101))","[661, 663] - Explains the core file operations - create, open, read, write, reposition, delete, and truncate- along with how the OS manages them through system calls and file tables 
+[664, 666] - Explains how Java file locking works and outlines key OS-managed file operations like open, read, write, lock, and close through both API usage and system behavior 
+[670, 672] - Explains how OS handles direct and indexed access, read/write positioning, and file indexing, illustrating key file operations like read, write, position, and directory management"
+VS-1,Which figure compares Decision Tree and Decision List learning curves based on training set size,visual,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [687, 689],  
+  [682, 684],   
+  [740, 742]    
+)
+","t5 = (aima-(689,741,674,727,688))","t5 = (aima-(689,741,674,727,688))","t5 = (aima-(674,689,676,675,671))","t5 = (aima-(689,674,727,681,675))","[687, 689] - Provides Figure 19.12 which visually compares the learning curves of Decision Tree and Decision List algorithms as training set size increases 
+[682, 684] - Describes how model capacity and error relate to learning performance across different algorithms, aiding in understanding comparative learning behavior
+[740, 742] - Mentions Figure 20.3 which directly compares Decision Tree and Naive Bayes learning curves by training set size, aiding identification of comparative learning trends"
+VS-2,What action sequence cleans both rooms in the two-cell vacuum world state-space graph,visual,"Artificial Intelligence a Modern Approach (""aima"")","(
+  [36, 37],   
+  [43, 45],  
+  [77, 80]    
+)
+","t5 = (aima-(80,377,135,51,382))","t5 = (aima-(80,377,135,51,64))","t5 = (aima-(80,377,135,382,136))","t5 = (aima-(80,377,135,136,382))",
+VS-3,When is thickness and smoothness of dough assessed,visual,"Cooks Illustrated Annual 2019 recipes (""cia"")","(
+  [54, 56], 
+  [196, 198], 
+  [152, 154] 
+)","t5 = (cia-(78,44,104,82,81))","t5 = (cia-(78,44,82,104,79))","t5 = (cia-(78,79,77,80,73))","t5 = (cia-(44,47,45,46,36))","Explains how trapped air in ravioli creates steam pockets that can cause bursting. 
+Discusses proper sealing techniques to prevent ravioli from opening during boiling.
+Covers the impact of air pockets on cooking time and texture."
+VS-4,How do parallel transitions work in a product automaton when multiple inputs are received,visual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[59, 62], 
+[72, 76], 
+[90, 93] 
+)","t5 = (iatl-(59,60,308,96,72))","t5 = (iatl-(59,60,308,96,179))","t5 = (pcd-(325,321,509),aima-(615,460))","t5 = (iatl-(59,60,308,96,72))","[59, 62] - Describes constructing product automaton by syncing transitions of both automata, showing how parallel transitions are handled
+[72, 76] - Explains NFAs handling multiple possible transitions, which relates to how product automata process parallel transitions by following all valid moves simultaneously
+[90, 93] - Shows how NFAs handle multiple possible moves in parallel, just like product automata track transitions from both components on the same input"
+VS-5,How does the transition diagram of a Turing Machine help in recognizing strings of the form 0ⁿ1ⁿ,visual,"Introduction to Automata Theory, Languages, and Computation (""iatl"")","(
+[346, 349], 
+[354, 357], 
+[344, 346] 
+)","t5 = (iatl-(348,347,399,366,349))","t5 = (iatl-(348,347,399,366,349))","t5 = (aima-(318,455,494,457,739))","t5 = (iatl-(347,399,345,349,77))","[346, 349] - Shows how the transition diagram guides matching each 0 with a 1, enabling recognition of strings 0ⁿ1ⁿ
+[354, 357] - Shows how TM transitions manage symbol matching, the same way used to recognize 0ⁿ1ⁿ
+[344, 346] - Shows how the TM step-by-step matches each 0 with a 1 using state changes and tape rewrites, which is exactly the process for recognizing 0ⁿ1ⁿ"
+VS-6,How does the system bring a new page into memory if the frame is already occupied,visual,"Operating System Concepts (""os"")","(
+  [508, 510],    
+  [546, 548],
+  [551, 553]
+)","t5 = (os-(552,1147,547,524,508))","t5 = (os-(552,1147,547,524,508))","t5 = (os-(519,517,514,520,515))","t5 = (os-(552,1147,524,547,508))","[508, 510] - Explains how page faults are handled, free-frame lists are used, and old pages are evicted or overwritten during demand paging 
+[546, 548] - Explains how page replacement works when a frame is occupied, using lock bits, replacement policies, and demand paging mechanisms to safely bring in new pages 
+[551, 553] - Explains how Solaris’s pageout process uses a two-handed clock algorithm to free occupied frames by scanning, clearing reference bits, and writing modified pages to secondary storage"
+VS-7,"How does the memory hierarchy pyramid illustrate the trade-offs between speed, size, and cost in multilevel memory systems",visual,"Principles of Computer System Design: An Introduction (""pcd"")","(
+  [317, 320],
+  [338, 341],
+  [347, 350]
+)","t5 = (pcd-(341,348,349,317,338))","t5 = (pcd-(341,348,349,317,338))","t5 = (pcd-(341,348,349,324),os-(1072))","t5 = (pcd-(341,348,349,338,353))","[317, 320] - Explains how performance bottlenecks arise from trade-offs between speed, capacity, and cost, which directly underlie the design of multilevel memory hierarchies 
+[338, 341] - Explains how multilevel memory systems use a hierarchy of devices with varying speed, size, and cost to balance performance and affordability 
+[347, 350] - Illustrates how modular multilevel memory designs and layered management strategies expose trade-offs in latency, capacity, and architectural complexity"
+VS-8,"How does a DNS resolver resolve a domain name to an IP address using hierarchical name servers, starting from the root",visual,"Principles of Computer System Design: An Introduction (""pcd"")","(
+  [197, 199],
+  [194, 196],
+  [199, 201]
+)
+","t5 = (pcd-(196,198,194,200),os-(910))","t5 = (pcd-(196,198,194,200),os-(910))","t5 = (pcd-(196,198,194,200,197))","t5 = (pcd-(196,198,194,200),os-(910))","[197, 199] - Explains the step-by-step resolution process from root to authoritative name servers, including caching and recursive queries, which clarifies how hierarchical DNS lookup operates 
+[194, 196] - Describes the hierarchical name resolution process in DNS, including root and referral-based lookups, which directly aligns with the question’s focus on how resolvers work 
+[199, 201] - Explains how recursive resolution, caching, and hierarchical delegation enable DNS resolvers to efficiently map domain names to IP addresses starting from the root"
+VS-9,Show a figure of process synchronization and its different states ,visual,"Operating System Concepts (""os"")","(
+  [388, 391],
+  [393, 395],
+  [398, 400]
+)
+","t5 = (os-(1222,400,24,56,1264))","t5 = (os-(1222,400,330,24,56))","t5 = (os-(351,56,200),ai-(615),os-(353))","t5 = (os-(400,330,56,362,377))","[388, 391] - Explains thread synchronization mechanisms in C (Pthreads) and Java, including condition variables, mutexes, wait/notify behavior, and entry/wait sets, which illustrate process synchronization states 
+[393, 395] - Illustrates how Java threads transition between entry and wait sets during synchronization, providing a visual model of process synchronization states 
+[398, 400] - Explains process synchronization using atomic blocks, OpenMP critical sections, and functional paradigms, helping the model infer synchronization states and transitions"
