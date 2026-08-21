@@ -1,0 +1,19 @@
+# valkey-bundle ships valkey-server with the valkey-search module preloaded,
+# which is what provides FT.CREATE / FT.SEARCH (HNSW, cosine, TAG filtering).
+# Plain valkey/valkey does NOT include it.
+services:
+  valkey:
+    image: valkey/valkey-bundle:latest
+    container_name: semcache-valkey
+    ports:
+      - "6379:6379"
+    volumes:
+      - valkey-data:/data
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  valkey-data:
