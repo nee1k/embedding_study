@@ -1,0 +1,11 @@
+# Real-stack extras, for the lab machine only.
+#
+#   EMBEDDER_IMPL=minilm  -> sentence-transformers (pulls torch; downloads
+#                            all-MiniLM-L6-v2 weights on first use)
+#   CACHE_IMPL=valkey     -> valkey-py client against valkey/valkey-bundle
+#
+# Install on top of requirements.txt:
+#   pip install -r requirements.txt -r requirements-lab.txt
+-r requirements.txt
+sentence-transformers>=2.7
+valkey>=6.0
